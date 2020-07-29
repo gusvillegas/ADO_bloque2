@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="6da2e0a390ce41d7bf8c188cb6be7fc6" Name="Diagram1" ZoomLevel="94">
+        <EntityTypeShape EntityType="EcommerceModel.sysdiagrams" Width="1.5" PointX="5.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EcommerceModel.TBL_CATEGORIA" Width="1.5" PointX="14" PointY="6.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="EcommerceModel.TBL_CLIENTE" Width="1.5" PointX="0.75" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="EcommerceModel.TBL_DETALLE_IMPUESTOS" Width="1.5" PointX="10.5" PointY="7.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="EcommerceModel.TBL_DETALLE_PEDIDO" Width="1.5" PointX="5.25" PointY="7.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="EcommerceModel.TBL_DIRECCION" Width="1.5" PointX="2.875" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="EcommerceModel.TBL_FORMA_PAGO" Width="1.5" PointX="6" PointY="3.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="EcommerceModel.TBL_IMPUESTOS" Width="1.5" PointX="8.25" PointY="3.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="EcommerceModel.TBL_PAGOS" Width="1.5" PointX="8.25" PointY="7.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="EcommerceModel.TBL_PEDIDO" Width="1.5" PointX="3" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EcommerceModel.TBL_PRODUCTO" Width="1.5" PointX="16.375" PointY="5.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="EcommerceModel.TBL_ROL" Width="1.5" PointX="10.75" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="EcommerceModel.TBL_USUARIO" Width="1.5" PointX="13" PointY="1" IsExpanded="true" />
+        <AssociationConnector Association="EcommerceModel.FK_TBL_PROD_RELATIONS_TBL_CATE" ManuallyRouted="false" />
+        <AssociationConnector Association="EcommerceModel.FK_TBL_DIRE_RELATIONS_TBL_CLIE" ManuallyRouted="false" />
+        <AssociationConnector Association="EcommerceModel.FK_TBL_PEDI_RELATIONS_TBL_CLIE" ManuallyRouted="false" />
+        <AssociationConnector Association="EcommerceModel.FK_TBL_DETA_RELATIONS_TBL_DETA" ManuallyRouted="false" />
+        <AssociationConnector Association="EcommerceModel.FK_TBL_DETA_RELATIONS_TBL_IMPU" ManuallyRouted="false" />
+        <AssociationConnector Association="EcommerceModel.FK_TBL_DETA_RELATIONS_TBL_PEDI" ManuallyRouted="false" />
+        <AssociationConnector Association="EcommerceModel.FK_TBL_DETA_RELATIONS_TBL_PROD" ManuallyRouted="false" />
+        <AssociationConnector Association="EcommerceModel.FK_TBL_PAGO_RELATIONS_TBL_FORM" ManuallyRouted="false" />
+        <AssociationConnector Association="EcommerceModel.FK_TBL_PAGO_RELATIONS_TBL_PEDI" ManuallyRouted="false" />
+        <AssociationConnector Association="EcommerceModel.FK_TBL_USUA_RELATIONS_TBL_ROL" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
